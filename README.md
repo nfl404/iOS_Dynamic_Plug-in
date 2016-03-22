@@ -24,8 +24,8 @@ iOS 动态插件，实时模块更新
 - 创建工程类型为Framework & Library 下的Cocoa Touch Framework工程，工程命名DynamicLink;
 - 创建继承UIViewController命名为ViewController的控制器，设置背景颜色；
 
-     // 动态库视图颜色
-     self.view.backgroundColor = [UIColor greenColor];
+           // 动态库视图颜色
+           self.view.backgroundColor = [UIColor greenColor];
   
 - 创建继承NSObject命名为DynamicOpenMenth文件，在DynamicOpenMenth.h中
 
